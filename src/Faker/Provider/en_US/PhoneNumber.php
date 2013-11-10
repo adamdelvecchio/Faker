@@ -4,7 +4,7 @@ namespace Faker\Provider\en_US;
 
 class PhoneNumber extends \Faker\Provider\PhoneNumber
 {
-    protected static $formats = array(
+    /*protected static $formats = array(
         '+##(#)##########',
         '+##(#)##########',
         '0##########',
@@ -29,5 +29,24 @@ class PhoneNumber extends \Faker\Provider\PhoneNumber
         '(###)###-####x#####',
         '1-###-###-####x#####',
         '###.###.####x#####'
+    );*/
+    protected static $formats = array(
+    	  '### ### ####',
+        '### ### ####x###',
+        '### ### ####x####',
+        '### ### ####x#####',
+        '(###) ### ####',
+        '(###) ### ####x###',
+        '(###) ### ####x####',
+        '(###) ### ####x#####',
+        '+## # (###) ### ####',
+        '+## # (###) ### ####x###',
+        '+## # (###) ### ####x####',
+        '+## # (###) ### ####x#####',
+			// this is called weighting:
+			'(###) ### ####',
+			 '### ### ####',
+			 '### ### ####',
+			 '### ### ####',
     );
 }

@@ -65,7 +65,9 @@ Each of the generator properties (like `name`, `address`, and `lorem`) are calle
     prefix                  // 'Ms.'
     suffix                  // 'Jr.'
     name                    // 'Dr. Zane Stroman'
-    firstName               // 'Maynard'
+    firstName               // 'Maynard' or 'Jane'
+    firstNameMale           // 'Maynard'
+    firstNameFemale         // 'Jane'
     lastName                // 'Zulauf'
 
 ### `Faker\Provider\en_US\Address`
